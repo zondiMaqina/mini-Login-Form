@@ -1,0 +1,108 @@
+*{
+	box-sizing: border-box;
+	font-family: sans-serif;
+	margin: 0;
+	padding: 0;
+	text-transform: capitalize;
+	text-decoration: none;
+}
+
+body h2{
+	text-transform: none;
+	text-align: center;
+	margin-top: 10px;
+	color: white;
+}
+
+
+body{
+	background-color: rgb(65, 170, 131);
+}
+
+.labels{
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	margin-top: 20px;
+	padding: 10px 10px 0px 10px;
+}
+
+.last{
+	text-align: center;
+}
+
+.labels label{
+	display: flex;
+}
+
+input{
+	display: flex;
+	flex-flow: column;
+	flex-grow: 2;
+	border: 2px solid lightgrey;
+	border-radius: 0 5px 5px 0;
+	text-transform: none;
+}
+
+input:hover{
+	border: 2px solid green;
+}
+
+.profile{
+	width: 35px;
+	height: 35px;
+	background-color: rgb(46, 169, 89);
+	border-radius: 5px 0 0 5px;
+
+}
+
+form{
+	width: fit-content;
+	margin: 50px auto;
+	max-width: 300px;
+	min-width: 350px;
+	padding-bottom: 15px;
+	background-color: white;
+	border-radius: 10px;
+}
+
+.title{
+	text-align: center;
+	padding: 20px;
+	background-color: rgb(46, 169, 89);
+	color: white;
+	word-spacing: 5px;
+	border-radius: 9px 9px 0 0;
+}
+
+button{
+	margin: 0 auto;
+	display: block;
+	width: 300px;
+	padding: 8px 0 8px 0;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: rgb(46, 169, 89);
+	color: white;
+	border: none;
+	border-radius: 5px;
+	margin-top: 20px;
+
+}
+
+#output{
+	color: darkred;
+}
+
+button:hover{
+	background-color: green;
+	cursor: pointer;
+}
+
+a{
+	color: rgb(46, 169, 89);
+}
+
+a:visited{
+	color: darkgreen;
+}
